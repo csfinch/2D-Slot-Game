@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5EC5D33B-0E58-6E7F-B074-B66308C69834}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\CoinDrop.cs" />
+     <Compile Include="Assets\Scripts\DelayDestroy.cs" />
+     <Compile Include="Assets\Scripts\HighlightLine.cs" />
+     <Compile Include="Assets\Scripts\Line.cs" />
+     <Compile Include="Assets\Scripts\PayData.cs" />
+     <Compile Include="Assets\Scripts\PayItem.cs" />
+     <Compile Include="Assets\Scripts\PayTable.cs" />
+     <Compile Include="Assets\Scripts\SetResolution.cs" />
+     <Compile Include="Assets\Scripts\SlotMachine.cs" />
+     <Compile Include="Assets\Scripts\Tile.cs" />
+     <Compile Include="Assets\mobile game menu kit\Sample Assets\2D\Scripts\Camera2DFollow.cs" />
+     <Compile Include="Assets\mobile game menu kit\Sample Assets\2D\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\mobile game menu kit\Sample Assets\2D\Scripts\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\mobile game menu kit\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\mobile game menu kit\Sample Assets\2D\Scripts\Restarter.cs" />
+     <Compile Include="Assets\mobile game menu kit\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\call_ad_gift.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\call_lives.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\call_lose.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\call_win.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\check_if_call_win_or_lose.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\checkpoint.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\current_sub_stage.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\death_collider.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\demo_controller.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\exit.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\get_bananas.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\get_score_points.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\item_demo.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\take_money.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\demo\take_star.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\end_uGUI.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\game_scene\continue_window.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\game_scene\game_uGUI.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\game_scene\progress_bar.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\Info_bar.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\ads_master.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\game_master.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\gift\feedback_window.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\gift\gift_button.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\gift\gift_manager.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\manage_menu_uGUI.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\profiles\new_profile_window.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\profiles\pad\character_button.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\profiles\pad\new_profile_pad.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\profiles\profile_button.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\profiles\profile_manager.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\score rank\rank_manager.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\score rank\score_rank_item.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\manual setup\manual_stage_screen.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\manual setup\manual_world_screen.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\map\manage_linear_map.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\pad_scroll.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\scroll_snap.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\single_screen.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\stage_ico_uGUI.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\stage menu\world_ico_uGUI.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\store\soomla\my_Soomla_Assets.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\store\soomla\my_Soomla_billing.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\store\store_button.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\store\store_item_manager.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\store\store_manager.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\home scene\store\store_tabs.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\options_menu.cs" />
+     <Compile Include="Assets\mobile game menu kit\script\pad_selection_color.cs" />
+     <None Include="Assets\Documents\ReadMe.txt" />
+     <None Include="Assets\HOTween\readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>/home/carl/2D Slot Game/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
