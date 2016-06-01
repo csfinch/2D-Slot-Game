@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4AFCEF11-C2AB-B6D0-6A0F-970A3AF907DD}") = "2D-Slot-Game", "Assembly-CSharp.csproj", "{DB0A8229-FF5B-857F-87D1-21B5237D7A1C}"
+EndProject
+Project("{4AFCEF11-C2AB-B6D0-6A0F-970A3AF907DD}") = "2D-Slot-Game", "Assembly-CSharp-Editor.csproj", "{4CD54EF2-41D0-CBB0-BD80-C097BC4B563F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB0A8229-FF5B-857F-87D1-21B5237D7A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0A8229-FF5B-857F-87D1-21B5237D7A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0A8229-FF5B-857F-87D1-21B5237D7A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0A8229-FF5B-857F-87D1-21B5237D7A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD54EF2-41D0-CBB0-BD80-C097BC4B563F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD54EF2-41D0-CBB0-BD80-C097BC4B563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD54EF2-41D0-CBB0-BD80-C097BC4B563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD54EF2-41D0-CBB0-BD80-C097BC4B563F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
