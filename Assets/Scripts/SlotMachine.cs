@@ -99,20 +99,20 @@ public class SlotMachine : MonoBehaviour {
     {
         totalBet = PayData.betting[betIndex];
 		bet = (double)(totalBet / lanes);
-        betLabel.text = totalBet.ToString();
+		betLabel.text = totalBet.ToString("F");
     }
 
     void SetMoney(double val)
     {
         tweenMoney = money;
         money = val;
-        moneyLabel.text = val.ToString();
+		moneyLabel.text = val.ToString("F");
         //TweenMoney(money, EaseType.EaseOutQuad);
     }
 
     void TweenMoneyUpdate()
     {
-        moneyLabel.text = tweenMoney.ToString();
+		moneyLabel.text = tweenMoney.ToString("F");
     }
 
     public double tweenMoney;
@@ -129,7 +129,7 @@ public class SlotMachine : MonoBehaviour {
 
     void SetWin(double val)
     {
-        winLabel.text = val.ToString();
+		winLabel.text = val.ToString("F");
     }
 
     void InitLabels()
